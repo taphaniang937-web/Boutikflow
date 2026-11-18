@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BOUTIKFLOW – Créez votre boutique en ligne</title>
+<style>
+:root{--navy:#0b1f4b;--navy2:#13306e;--gold:#c9a24a;--bg:#ffffff;--bg2:#f5f7fb;--text:#0b1f4b;--muted:#51608a;--card:#ffffff;--line:#e1e6f0;--on-gold:#0b1f4b;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#081331;--bg2:#0d1b42;--text:#f2f5fc;--muted:#a9b6d8;--card:#102050;--line:#22346b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#081331;--bg2:#0d1b42;--text:#f2f5fc;--muted:#a9b6d8;--card:#102050;--line:#22346b;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:800;letter-spacing:.5px;font-size:20px;color:var(--text);text-decoration:none}
+.logo span{color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:var(--on-gold);font-weight:700;padding:12px 22px;border-radius:10px;text-decoration:none}
+.btn.sm{padding:8px 14px;font-size:14px}
+.hero{background:linear-gradient(160deg,#0b1f4b,#13306e);color:#fff;padding:64px 0 72px;text-align:center}
+.hero h1{font-size:clamp(28px,6vw,46px);line-height:1.15;margin:0 0 16px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{max-width:560px;margin:0 auto 28px;color:#d4dcf2;font-size:18px}
+section{padding:56px 0}
+section.alt{background:var(--bg2)}
+h2{font-size:clamp(22px,4vw,32px);margin:0 0 8px;text-align:center}
+.sub{color:var(--muted);text-align:center;margin:0 auto 32px;max-width:560px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.ico{font-size:26px;margin-bottom:8px}
+.plan .price{font-size:30px;font-weight:800;margin:8px 0}
+.plan .price small{font-size:14px;color:var(--muted);font-weight:500}
+.plan ul{padding-left:18px;margin:12px 0 18px;color:var(--muted);font-size:15px}
+.plan.best{border:2px solid var(--gold)}
+.tag{display:inline-block;background:var(--gold);color:var(--on-gold);font-size:12px;font-weight:700;padding:2px 10px;border-radius:99px}
+.pay{text-align:center;color:var(--muted);font-size:14px;margin-top:18px}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600}
+details p{color:var(--muted);margin:10px 0 0}
+.cta{background:var(--navy);color:#fff;text-align:center}
+.cta h2{color:#fff}
+footer{padding:24px 0;text-align:center;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="#top">BOUTIK<span>FLOW</span></a>
+<a class="btn sm" href="#tarifs">Créer ma boutique</a>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+<h1>Votre boutique en ligne, <em>prête en quelques minutes</em></h1>
+<p>Vendez vos produits, gérez vos commandes et développez votre commerce depuis votre téléphone ou votre ordinateur.</p>
+<a class="btn" href="#tarifs">Créer ma boutique</a>
+</div></div>
+
+<section id="fonctionnalites"><div class="wrap">
+<h2>Tout pour vendre en ligne</h2>
+<p class="sub">Une plateforme simple, pensée pour les entrepreneurs du Sénégal et d’Afrique francophone.</p>
+<div class="grid">
+<div class="card"><div class="ico">🏪</div><h3>Votre boutique</h3><p>Nom, logo, thème et adresse web personnalisée.</p></div>
+<div class="card"><div class="ico">📦</div><h3>Produits et stocks</h3><p>Catalogue, photos multiples, catégories et gestion des stocks.</p></div>
+<div class="card"><div class="ico">🧾</div><h3>Commandes</h3><p>Confirmez, annulez et suivez la livraison de chaque commande.</p></div>
+<div class="card"><div class="ico">📊</div><h3>Tableau de bord</h3><p>Ventes, clients et statistiques réunis au même endroit.</p></div>
+</div></div></section>
+
+<section class="alt" id="ia"><div class="wrap">
+<h2>L’intelligence artificielle à votre service</h2>
+<p class="sub">Des outils IA pour gagner du temps. Certains outils sont réservés aux formules Business et Pro.</p>
+<div class="grid">
+<div class="card"><div class="ico">⬇️</div><h3>Import de produits</h3><p>Récupérez titres, photos et descriptions depuis les sources compatibles, puis modifiez tout avant publication.</p></div>
+<div class="card"><div class="ico">📸</div><h3>Studio photo IA</h3><p>Fonds propres, mises en scène professionnelles, plusieurs visuels par produit.</p></div>
+<div class="card"><div class="ico">✍️</div><h3>Rédacteur IA</h3><p>Titres, descriptions, arguments de vente et calcul de marge, en français et en wolof.</p></div>
+<div class="card"><div class="ico">📣</div><h3>Marketing IA</h3><p>Affiches, publications Facebook et Instagram, scripts vidéo et hashtags.</p></div>
+</div></div></section>
+
+<section id="tarifs"><div class="wrap">
+<h2>Des tarifs simples</h2>
+<p class="sub">Sans engagement. Payez votre abonnement par Wave ou Orange Money.</p>
+<div class="grid">
+<div class="card plan"><h3>Starter</h3><div class="price">2 000 <small>FCFA / mois</small></div>
+<ul><li>1 boutique</li><li>30 produits</li><li>Gestion des commandes</li><li>Fonctions essentielles</li></ul>
+<a class="btn" href="#tarifs">Choisir Starter</a></div>
+<div class="card plan best"><span class="tag">Populaire</span><h3>Business</h3><div class="price">5 000 <small>FCFA / mois</small></div>
+<ul><li>1 boutique</li><li>Produits illimités</li><li>Import de produits</li><li>Outils marketing</li><li>Statistiques</li></ul>
+<a class="btn" href="#tarifs">Choisir Business</a></div>
+<div class="card plan"><h3>Pro</h3><div class="price">10 000 <small>FCFA / mois</small></div>
+<ul><li>Tout Business</li><li>Studio photo IA</li><li>Publicités générées par IA</li><li>Outils et statistiques avancés</li></ul>
+<a class="btn" href="#tarifs">Choisir Pro</a></div>
+</div>
+<p class="pay">💳 Paiement des abonnements : Wave et Orange Money.</p>
+</div></section>
+
+<section class="alt" id="faq"><div class="wrap" style="max-width:720px">
+<h2>Questions fréquentes</h2>
+<p class="sub">Les réponses aux questions les plus courantes.</p>
+<details><summary>Comment créer ma boutique ?</summary><p>Créez un compte, choisissez une formule, renseignez le nom et le logo de votre boutique, puis ajoutez vos produits.</p></details>
+<details><summary>Comment payer mon abonnement ?</summary><p>Par Wave ou Orange Money. Votre abonnement est activé dès que le paiement est confirmé.</p></details>
+<details><summary>Puis-je changer de formule ?</summary><p>Oui, vous pouvez passer à une formule supérieure ou inférieure à chaque renouvellement mensuel.</p></details>
+<details><summary>Le site est-il disponible en wolof ?</summary><p>L’interface est en français. Le wolof est prévu, et le rédacteur IA sait déjà produire des textes publicitaires en wolof.</p></details>
+<details><summary>Puis-je utiliser mon téléphone ?</summary><p>Oui. BOUTIKFLOW fonctionne sur Android, iPhone, tablette et ordinateur.</p></details>
+</div></section>
+
+<section class="cta"><div class="wrap">
+<h2>Prêt à lancer votre boutique ?</h2>
+<p style="color:#d4dcf2;margin:0 0 22px">Rejoignez les entrepreneurs qui vendent en ligne avec BOUTIKFLOW.</p>
+<a class="btn" href="#tarifs">Créer ma boutique</a>
+</div></section>
+</main>
+<footer><div class="wrap">© 2026 BOUTIKFLOW. Tous droits réservés.</div></footer>
+</body>
+</html>
